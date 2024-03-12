@@ -112,7 +112,6 @@
     {
       "type": "wireguard",
       "tag": "WARP+",
-      "detour": "Hiddify Warp ✅",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
