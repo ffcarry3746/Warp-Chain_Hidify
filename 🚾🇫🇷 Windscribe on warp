@@ -8,7 +8,7 @@
     "servers": [
       {
         "tag": "dns-remote",
-        "address": "udp://1.1.1.1",
+        "address": "tcp://8.8.4.4",
         "address_resolver": "dns-direct"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "tag": "dns-direct",
-        "address": "local://1.1.1.1",
+        "address": "tcp://8.8.4.4",
         "address_resolver": "dns-local",
         "detour": "direct"
       },
@@ -47,12 +47,16 @@
     "final": "dns-remote",
     "static_ips": {
       "sky.rethinkdns.com": [
+        "188.114.96.3",
+        "188.114.97.3",
+        "2a06:98c1:3120::3",
+        "2a06:98c1:3121::3",
+        "104.18.203.232",
+        "104.18.202.232",
         "188.114.96.6",
         "188.114.97.6",
-        "2a06:98c1:3120::6",
-        "2a06:98c1:3121::6",
-        "198.18.0.16",
-        "198.18.0.17"
+        "2a06:98c1:3121::3",
+        "2a06:98c1:3120::3"
       ]
     },
     "independent_cache": true
@@ -73,7 +77,7 @@
     {
       "type": "mixed",
       "tag": "mixed-in",
-      "listen": "0.0.0.0",
+      "listen": "127.0.0.1",
       "listen_port": 2334,
       "sniff": true,
       "sniff_override_destination": true
@@ -81,8 +85,8 @@
     {
       "type": "direct",
       "tag": "dns-in",
-      "listen": "0.0.0.0",
-      "listen_port": 6450,
+      "listen": "127.0.0.1",
+      "listen_port": 6440,
       "override_address": "1.1.1.1",
       "override_port": 53
     }
@@ -102,7 +106,6 @@
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "auto",
         "WARP+",
         "Windscribe 🇫🇷"
       ],
@@ -120,7 +123,6 @@
       "server": "162.159.192.171",
       "server_port": 1018,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0=",
       "reserved": "bfY2",
       "mtu": 1280,
       "fake_packets": "5-10",
@@ -151,8 +153,8 @@
       "tag": "direct-fragment",
       "tls_fragment": {
         "enabled": true,
-        "size": "10-20",
-        "sleep": "10-20"
+        "size": "100-200",
+        "sleep": "10-15"
       }
     },
     {
@@ -189,27 +191,19 @@
         "outbound": "select"
       },
       {
-        "geoip": "private",
-        "outbound": "bypass"
-      },
-      {
         "domain_suffix": ".ir",
         "geosite": "ir",
         "geoip": "ir",
         "outbound": "bypass"
       }
     ],
-    "final": "select",
     "auto_detect_interface": true,
     "override_android_vpn": true
   },
   "experimental": {
-    "cache_file": {
-      "enabled": true,
-      "path": "clash.db"
-    },
     "clash_api": {
       "external_controller": "127.0.0.1:6756"
     }
   }
 }
+1
