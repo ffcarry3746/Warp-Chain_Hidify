@@ -134,7 +134,7 @@
       "tag": "Windscribe 🇫🇷",
       "detour": "WARP+",
       "local_address": "100.100.196.8/32",
-      "Preshared_Key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0=",
+      "Pre_shared_Key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0=",
       "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
       "server": "138.199.47.222",
       "server_port": 65142,
