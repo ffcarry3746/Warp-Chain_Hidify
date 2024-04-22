@@ -1,0 +1,135 @@
+{
+  "outbounds": [
+
+    {
+      "type": "wireguard",
+      "tag": "Windscribe 🇫🇷",
+      "local_address": "100.100.196.8/32",
+      "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
+      "server": "138.199.47.222",
+      "server_port": 65142,
+      "peer_public_key": "cmaT8JIehfRf5PWWDkcBRwLWDb3jrIkk/SDbw4JmUAc=",
+      "pre_shared_key": "p9oZWElz4vn74dOqa0+UNIJGxy2/VeBF6b8YIfmVgY0=",
+      "mtu": 1280
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 𝐈𝐑𝐂𝐏",
+      "server": "193.38.54.48",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489"
+      },
+      "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "let-him-cook.ircp.online",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACCc2kqEYGusiYc5fj1smMpQJYQLckpS1bgOaCDLvoiofgAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇮 𝐀𝐳𝐚𝐝𝐢 𝟏",
+      "server": "37.27.84.192",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "EmdBRojW+aXe"
+      },
+      "password": "zjc+LBaCD7Jh",
+      "tls": {
+        "enabled": true,
+        "server_name": "candyman.segaro.tech",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACBd19FN7R9Ncqwf60ePhvYvxOcrGijnB3hqacu8BmUbdgAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇫🇮 𝐀𝐳𝐚𝐝𝐢 𝟐",
+      "server": "37.27.19.153",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "Azadiobfs10qpal"
+      },
+      "password": "Azadi1047hy2",
+      "tls": {
+        "enabled": true,
+        "server_name": "Let-Me-Cook.segaro.tech",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACDTb8vI1c4ltSPM7UuFzqYqjrqtuNG5qre6yKxJMjcqYAAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "wireguard",
+      "tag": "WARP+",
+      "local_address": [
+        "172.16.0.2/24",
+        "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
+      ],
+      "private_key": "AN/vE11+V8r25aGti20+ZPv3LfWckXfzGJlDQuxpCkc=",
+      "server": "162.159.192.171",
+      "server_port": 1018,
+      "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+      "reserved": "bfY2",
+      "mtu": 1280,
+      "fake_packets": "5-10"
+    },
+    {
+      "type": "wireguard",
+      "tag": "Proton 🇳🇱",
+      "local_address": "10.2.0.2/32",
+      "private_key": "2HbmAORFGVs9RQ3wk91D3xl46ug+fjVg1yH5hBfQemk=",
+      "server": "169.150.218.1",
+      "server_port": 51820,
+      "peer_public_key": "bF0RahG8sdUqVt/3Q3Awy46kJ06zV0mzywelGyM/DVw=",
+      "mtu": 1280
+    },
+    {
+      "type": "wireguard",
+      "tag": "Proton 🇺🇲",
+      "local_address": "10.2.0.2/32",
+      "private_key": "EHdMrOWtSRgouLS0nW0ZZn1pUuHzuCA1IN6vsDXKOXc=",
+      "server": "156.146.54.81",
+      "server_port": 51820,
+      "peer_public_key": "FF79Ab2fcEYtsyNYxviTUtVxJLuvUcoEOpl8DYbdsgg=",
+      "mtu": 1280
+    }
+[
+}
