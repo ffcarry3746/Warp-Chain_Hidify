@@ -1,6 +1,5 @@
 {
   "outbounds": [
-
     {
       "type": "wireguard",
       "tag": "Windscribe 🇫🇷",
