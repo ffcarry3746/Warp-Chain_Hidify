@@ -174,8 +174,6 @@
       "mtu": 1280
     },
     {
-      "down_mbps": 0,
-      "hop_interval": 10,
       "obfs": {
         "password": "fd784f88798796c1",
         "type": "salamander"
