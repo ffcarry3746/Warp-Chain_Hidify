@@ -2,7 +2,7 @@
   "outbounds": [
     {
       "type": "wireguard",
-      "tag": "Windscribe 🇫🇷",
+      "tag": "🇫🇷 Windscribe",
       "local_address": "100.100.196.8/32",
       "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
       "server": "138.199.47.222",
@@ -121,13 +121,13 @@
 },
     {
       "type": "wireguard",
-      "tag": "WARP+",
+      "tag": "🇮🇷 WARP+",
       "local_address": [
         "172.16.0.2/24",
         "2606:4700:110:8056:6ec9:563a:d8e7:5097/128"
       ],
       "private_key": "AN/vE11+V8r25aGti20+ZPv3LfWckXfzGJlDQuxpCkc=",
-      "server": "162.159.192.171",
+      "server": "zula.ir",
       "server_port": 1018,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
       "reserved": "bfY2",
@@ -136,7 +136,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Proton 🇳🇱",
+      "tag": "🇳🇱 Proton",
       "local_address": "10.2.0.2/32",
       "private_key": "2HbmAORFGVs9RQ3wk91D3xl46ug+fjVg1yH5hBfQemk=",
       "server": "169.150.218.1",
@@ -146,7 +146,7 @@
     },
     {
       "type": "wireguard",
-      "tag": "Proton 🇺🇲",
+      "tag": "🇺🇲 Proton",
       "local_address": "10.2.0.2/32",
       "private_key": "EHdMrOWtSRgouLS0nW0ZZn1pUuHzuCA1IN6vsDXKOXc=",
       "server": "156.146.54.81",
