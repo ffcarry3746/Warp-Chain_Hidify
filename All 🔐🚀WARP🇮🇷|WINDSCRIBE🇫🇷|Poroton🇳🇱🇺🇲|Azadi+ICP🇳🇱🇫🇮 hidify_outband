@@ -192,7 +192,7 @@
       "up_mbps": 0,
       "type": "hysteria2",
       "domain_strategy": "",
-      "tag": "🇸🇪🟡 my HYSTERIA"
+      "tag": "🇸🇪🟡 myHYSTERIA"
     },
     {
       "packet_encoding": "",
@@ -200,7 +200,8 @@
       "server_port": 443,
       "tls": {
         "alpn": [
-          "h2"
+          "h2",
+          "http/1.1"
         ],
         "enabled": true,
         "insecure": true,
