@@ -200,7 +200,7 @@
       "server_port": 443,
       "tls": {
         "alpn": [
-          "h3"
+          "h2"
         ],
         "enabled": true,
         "insecure": true,
