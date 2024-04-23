@@ -223,7 +223,8 @@
       "uuid": "5bdf790f-0af2-4481-a624-41b66e7e3489",
       "type": "vless",
       "domain_strategy": "",
-      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | VLESS"
+      "tag": "🇳🇱 𝐈𝐑𝐂𝐏|VLESS",
+      "detour": "🇮🇷 WARP+"
     }
 ]
 }
