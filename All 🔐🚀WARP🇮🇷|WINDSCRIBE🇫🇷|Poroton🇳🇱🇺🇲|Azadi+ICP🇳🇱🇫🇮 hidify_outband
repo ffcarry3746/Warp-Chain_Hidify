@@ -95,6 +95,30 @@
         }
       }
     },
+{
+  "type": "hysteria2",
+  "tag": "🇦🇺 𝐀𝐳𝐚𝐝𝐢 𝟑",
+  "server": "158.179.22.147",
+  "server_port": 443,
+  "password": "azadi1",
+  "tls": {
+    "enabled": true,
+    "server_name": "azadi1.dgi000.store",
+    "alpn": "h3",
+    "min_version": "1.3",
+    "max_version": "1.3",
+    "ech": {
+      "enabled": true,
+      "pq_signature_schemes_enabled": true,
+      "config": [
+        "-----BEGIN ECH CONFIGS-----",
+        "AFf+DQBTAAAgACCXFwt8fkiq4Q7jeLIa1lHyyUExIjVL0/a5/S2jMZZgcgAIAAEA",
+        "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+        "-----END ECH CONFIGS-----"
+      ]
+    }
+  }
+},
     {
       "type": "wireguard",
       "tag": "WARP+",
