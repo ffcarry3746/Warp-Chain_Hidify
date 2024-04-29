@@ -13,114 +13,6 @@
    "fake_packets": "5-10"
     },
     {
-      "type": "hysteria2",
-      "tag": "🇳🇱 𝐈𝐑𝐂𝐏",
-      "server": "193.38.54.48",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489"
-      },
-      "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489",
-      "tls": {
-        "enabled": true,
-        "server_name": "let-him-cook.ircp.online",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACCc2kqEYGusiYc5fj1smMpQJYQLckpS1bgOaCDLvoiofgAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 𝐀𝐳𝐚𝐝𝐢 𝟏",
-      "server": "37.27.84.192",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "EmdBRojW+aXe"
-      },
-      "password": "zjc+LBaCD7Jh",
-      "tls": {
-        "enabled": true,
-        "server_name": "candyman.segaro.tech",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACBd19FN7R9Ncqwf60ePhvYvxOcrGijnB3hqacu8BmUbdgAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
-    {
-      "type": "hysteria2",
-      "tag": "🇫🇮 𝐀𝐳𝐚𝐝𝐢 𝟐",
-      "server": "37.27.19.153",
-      "server_port": 443,
-      "obfs": {
-        "type": "salamander",
-        "password": "Azadiobfs10qpal"
-      },
-      "password": "Azadi1047hy2",
-      "tls": {
-        "enabled": true,
-        "server_name": "Let-Me-Cook.segaro.tech",
-        "alpn": "h3",
-        "min_version": "1.3",
-        "max_version": "1.3",
-        "ech": {
-          "enabled": true,
-          "pq_signature_schemes_enabled": true,
-          "config": [
-            "-----BEGIN ECH CONFIGS-----",
-            "AFf+DQBTAAAgACDTb8vI1c4ltSPM7UuFzqYqjrqtuNG5qre6yKxJMjcqYAAIAAEA",
-            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-            "-----END ECH CONFIGS-----"
-          ]
-        }
-      }
-    },
-{
-  "type": "hysteria2",
-  "tag": "🇦🇺 𝐀𝐳𝐚𝐝𝐢 𝟑",
-  "server": "158.179.22.147",
-  "server_port": 443,
-  "password": "azadi1",
-  "tls": {
-    "enabled": true,
-    "server_name": "azadi1.dgi000.store",
-    "alpn": "h3",
-    "min_version": "1.3",
-    "max_version": "1.3",
-    "ech": {
-      "enabled": true,
-      "pq_signature_schemes_enabled": true,
-      "config": [
-        "-----BEGIN ECH CONFIGS-----",
-        "AFf+DQBTAAAgACCXFwt8fkiq4Q7jeLIa1lHyyUExIjVL0/a5/S2jMZZgcgAIAAEA",
-        "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
-        "-----END ECH CONFIGS-----"
-      ]
-    }
-  }
-},
-    {
       "type": "wireguard",
       "tag": "🇮🇷 WARP+",
       "local_address": [
@@ -218,6 +110,91 @@
       "domain_strategy": "",
       "tag": "🇸🇪🟡 myHYSTERIA on Warp🔗",
   "detour": "🇮🇷 WARP+"
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇳🇱 𝐈𝐑𝐂𝐏",
+      "domain_strategy": "ipv4_only",
+      "server": "193.38.54.48",
+      "server_port": 443,
+      "obfs": {
+        "type": "salamander",
+        "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489"
+      },
+      "password": "@ln2ray-5bdf790f-0af2-4481-a624-41b66e7e3489",
+      "tls": {
+        "enabled": true,
+        "server_name": "let-him-cook.ircp.online",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACCc2kqEYGusiYc5fj1smMpQJYQLckpS1bgOaCDLvoiofgAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 𝐀𝐳𝐚𝐝𝐢 𝟏",
+      "domain_strategy": "ipv4_only",
+      "server": "207.211.149.120",
+      "server_port": 443,
+      "password": "azadi1",
+      "tls": {
+        "enabled": true,
+        "server_name": "azadi1.dgi000.store",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACCXFwt8fkiq4Q7jeLIa1lHyyUExIjVL0/a5/S2jMZZgcgAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
+    },
+    {
+      "type": "hysteria2",
+      "tag": "🇦🇺 𝐀𝐳𝐚𝐝𝐢 𝟐",
+      "domain_strategy": "ipv4_only",
+      "server": "158.179.16.247",
+      "server_port": 443,
+      "up_mbps": 10000,
+      "down_mbps": 10000,
+      "obfs": {
+        "type": "salamander",
+        "password": "azadi2"
+      },
+      "password": "azadi2",
+      "tls": {
+        "enabled": true,
+        "server_name": "azadi2.dgi000.store",
+        "alpn": "h3",
+        "min_version": "1.3",
+        "max_version": "1.3",
+        "ech": {
+          "enabled": true,
+          "pq_signature_schemes_enabled": true,
+          "config": [
+            "-----BEGIN ECH CONFIGS-----",
+            "AFf+DQBTAAAgACA+jaA7SXc0+/M/uSXQZzBpaWqYU1h8U7OIKrGoTk7fZwAIAAEA",
+            "AQABAAMAIFstLXBxLXNpZ25hdHVyZS1zY2hlbWVzLWVuYWJsZWRdAAA=",
+            "-----END ECH CONFIGS-----"
+          ]
+        }
+      }
     }
 ]
 }
