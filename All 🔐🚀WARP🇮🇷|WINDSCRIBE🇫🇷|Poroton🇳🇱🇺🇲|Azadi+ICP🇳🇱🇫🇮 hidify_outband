@@ -118,8 +118,6 @@
       "fake_packets": "5-10"
     },
     {
-      "down_mbps": 0,
-      "hop_interval": 10,
       "obfs": {
         "password": "cd7e03d161e8fe5d",
         "type": "salamander"
@@ -185,7 +183,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 𝐈𝐑𝐂𝐏",
+      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | 1",
       "domain_strategy": "ipv4_only",
       "server": "193.38.54.48",
       "server_port": 443,
@@ -214,8 +212,8 @@
     },
     {
       "type": "hysteria2",
-      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | 𝟐 | 𝐢𝐩𝐯𝟔\n@Ln2Ray",
-      "server": "2a09:7c44:0:13::1",
+      "tag": "🇳🇱 𝐈𝐑𝐂𝐏 | 2",
+      "server": "37.221.127.169",
       "server_port": 443,
       "obfs": {
         "type": "salamander",
