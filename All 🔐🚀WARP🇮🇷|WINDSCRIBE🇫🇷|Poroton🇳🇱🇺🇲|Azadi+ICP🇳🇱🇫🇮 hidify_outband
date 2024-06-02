@@ -282,7 +282,7 @@
       "up_mbps": 0,
       "type": "hysteria2",
       "domain_strategy": "",
-      "tag": "🇸🇪🟡 myH2 on Warp4️⃣",
+      "tag": "🇸🇪🟡myH2 on Warp4️⃣",
       "detour": "🇮🇷 WARP+"
     },
     {
@@ -291,7 +291,7 @@
         "type": "salamander"
       },
       "password": "04bb42227f7c629c",
-      "server": "77.91.87.167",
+      "server": "2a12:5940:bbac::2",
       "server_port": 2087,
       "tls": {
         "alpn": [
@@ -304,7 +304,7 @@
       "up_mbps": 0,
       "type": "hysteria2",
       "domain_strategy": "",
-      "tag": "🇸🇪🟡 myH2 on Warp6️⃣",
+      "tag": "🇸🇪🟡myH2 on Warp6️⃣",
       "detour": "🇮🇷 WARP+6️⃣"
     },
     {
