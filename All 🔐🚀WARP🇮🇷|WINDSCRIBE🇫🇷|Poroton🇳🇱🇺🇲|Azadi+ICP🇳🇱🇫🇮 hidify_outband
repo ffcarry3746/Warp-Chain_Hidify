@@ -196,8 +196,31 @@
       "up_mbps": 0,
       "type": "hysteria2",
       "domain_strategy": "",
-      "tag": "🇩🇪❄️HOSSEIN|H2"
+      "tag": "🇩🇪❄️HOSSEIN|H2 4️⃣"
     },
+{
+    "domain_strategy": "",
+    "down_mbps": 0,
+    "obfs": {
+        "password": "cd7e03d161e8fe5d",
+        "type": "salamander"
+    },
+    "password": "0e9f03c78d8ff035",
+    "server": "2a12:5940:9f21::2",
+    "server_port": 443,
+    "tag": "proxy",
+    "tls": {
+        "alpn": "h3",
+        "certificate": "",
+        "disable_sni": false,
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.google.com"
+    },
+    "type": "hysteria2",
+    "up_mbps": 0,
+      "tag": "🇩🇪❄️HOSSEIN|H2 6️⃣"
+},
     {
       "obfs": {
         "password": "fd784f88798796c1",
@@ -238,8 +261,30 @@
       "up_mbps": 0,
       "type": "hysteria2",
       "domain_strategy": "",
-      "tag": "🇸🇪🟡 myHYSTERIA on Warp🔗",
-  "detour": "🇮🇷 WARP+"
+      "tag": "🇸🇪🟡 myHYSTERIA on Warp4️⃣",
+      "detour": "🇮🇷 WARP+"
+    },
+    {
+      "obfs": {
+        "password": "fd784f88798796c1",
+        "type": "salamander"
+      },
+      "password": "04bb42227f7c629c",
+      "server": "77.91.87.167",
+      "server_port": 2087,
+      "tls": {
+        "alpn": [
+          "h3"
+        ],
+        "enabled": true,
+        "insecure": true,
+        "server_name": "www.google.c"
+      },
+      "up_mbps": 0,
+      "type": "hysteria2",
+      "domain_strategy": "",
+      "tag": "🇸🇪🟡 myHYSTERIA on Warp4️⃣",
+      "detour": "🇮🇷 WARP+6️⃣"
     },
     {
       "type": "hysteria2",
