@@ -72,8 +72,8 @@
   "outbounds": [
     {
       "type": "wireguard",
-      "tag": "proxy",
-      "detour": "g-10983",
+      "tag": "🇫🇷Windscribe",
+      "detour": "🇳🇱H2",
       "local_address": "100.100.196.8/32",
       "private_key": "qKgJJNTkkAr37k74Ix7FkdB3tVIHE1rQBOp4adjm2HU=",
       "server": "138.199.47.222",
@@ -84,7 +84,7 @@
     },
     {
       "type": "hysteria2",
-      "tag": "g-10983",
+      "tag": "🇳🇱H2",
       "server": "212.113.100.126",
       "server_port": 443,
       "obfs": {
