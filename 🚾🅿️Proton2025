@@ -1,3 +1,7 @@
+socks://Og==@127.0.0.1:8086#%E2%98%A2%EF%B8%8FWARP+%2B+termux8086
+socks://Og==@127.0.0.1:8088#%E2%98%A2%EF%B8%8FWARP+%2B+oblivion8088
+socks://Og==@127.0.0.1:9150#%F0%9F%A7%85%00%00TOR+browser+9150
+socks://Og==@127.0.0.1:9050#%F0%9F%A7%85%F0%9F%91%BEOrbot+Socks+9050
 wireguard://4NMyzSD%2F4t5zT6exVIjgvyOwopaoMTkL1YxmkTpseVM%3D@82.102.26.226:60100?wnoise=quic&address=10.1.13.168%2F32&keepalive=5&wpayloadsize=10-20&publickey=PCHW67%2BlEKBQI%2BqRFaRptHN%2BRrUBIXYZ%2Fv2Xhi%2BCoRk%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#%F0%9F%8C%B5Cactus+%7C+Spain+%F0%9F%87%AA%F0%9F%87%B8
 wireguard://KDy0%2FBPTH5X%2FiwGltsETQrG90w5lXrs4orrhld6u%2Fno%3D@[2606:4700:d0::20b6:dcb7:c1c9:a207]:1010?wnoise=quic&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f81%3Ad551%3Aa0%3A532e%3Aa2b3%2F128&reserved=240%2C158%2C175&keepalive=5&wpayloadsize=40-100&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=4-8&wnoisecount=40&mtu=1420#%F0%9F%92%A6+BPB+-+Warp6%EF%B8%8F%E2%83%A3%7C+2606%3A4700%3Ad0%3A%3A20b6%3Adcb7%3Ac1c9%3Aa207%3A880
 wireguard://KDy0%2FBPTH5X%2FiwGltsETQrG90w5lXrs4orrhld6u%2Fno%3D@[2606:4700:d0::132:e9f8:6e33:8f68]:7103?wnoise=quic&address=172.16.0.2%2F32%2C2606%3A4700%3A110%3A8f81%3Ad551%3Aa0%3A532e%3Aa2b3%2F128&reserved=240%2C158%2C175&keepalive=5&wpayloadsize=5-10&publickey=bmXOC%2BF1FxEMF9dyiK2H5%2F1SUtzH0JuVo51h2wPfgyo%3D&wnoisedelay=1-2&wnoisecount=15&mtu=1280#%F0%9F%92%A6+BPB+-+Warp6%EF%B8%8F%E2%83%A3%7C+2606%3A4700%3Ad0%3A%3A132%3Ae9f8%3A6e33%3A8f68%3A7103
