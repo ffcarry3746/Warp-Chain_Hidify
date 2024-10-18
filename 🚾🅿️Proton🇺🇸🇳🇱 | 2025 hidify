@@ -201,8 +201,23 @@
 },
 {
   "type": "wireguard",
-  "tag": "💦 Warp 🇩🇪D",
-   "detour": "Hiddify Warp",
+  "tag": "WsW🇵🇱🐻🟣❄️",
+   "detour": "🇵🇱🐻🟣Serv00❄️D",
+  "local_address": [
+    "172.16.0.2/32",
+    "2606:4700:110:8867:f596:5ee6:1434:ef0/128"
+  ],
+  "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
+  "private_key": "+Nn6ZC4tOnUIOPMT+OrX4m7vDaT2sRvbswmGvvoFlXQ=",
+  "server": "162.159.192.150",
+  "server_port": 943,
+  "reserved": "4fe8",
+  "mtu": 1330
+},
+{
+  "type": "wireguard",
+  "tag": "WPW🚾🅿️Proton 🇺🇸",
+   "detour": "🚾🅿️Proton 🇺🇸2 | 2025",
   "local_address": [
     "172.16.0.2/32",
     "2606:4700:110:8867:f596:5ee6:1434:ef0/128"
