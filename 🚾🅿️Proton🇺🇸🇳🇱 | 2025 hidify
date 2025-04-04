@@ -7,11 +7,11 @@
         "172.16.0.2/24",
         "2606:4700:110:80a6:11d3:570a:4949:8f5c/128"
       ],
-      "private_key": "QIaeGQ+EDrs++SVHFhBcEPq5G3miWbLh9XCJmRiUdk8=",
+      "private_key": "mJjyoHu5jtI9fYFsvgcXmSirykLlinn7407gbqCyMEo=",
       "server": "188.114.98.224",
       "server_port": 3854,
       "peer_public_key": "bmXOC+F1FxEMF9dyiK2H5/1SUtzH0JuVo51h2wPfgyo=",
-      "reserved": "cQuo",
+      "reserved": "5lcZ",
       "mtu": 1316,
       "fake_packets": "40-80",
       "fake_packets_size": "40-100",
