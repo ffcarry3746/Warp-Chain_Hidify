@@ -18,6 +18,47 @@
       "fake_packets_delay": "4-8",
       "fake_packets_mode": "m4"
     },
+{
+  "local_address": [
+    "10.1.15.180/32"
+  ],
+  "mtu": 1316,
+  "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+  "private_key": "4HwNi9TaDc0B6bVldF/RvlYzQjhFu/nlxZA5N9E07UM=",
+  "server": "107.152.43.64",
+  "server_port": 51820,
+  "type": "wireguard",
+  "tag": "pdot_USA🇺🇸"
+},
+{
+  "local_address": [
+    "10.1.15.180/32"
+  ],
+  "mtu": 1316,
+  "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+  "private_key": "4HwNi9TaDc0B6bVldF/RvlYzQjhFu/nlxZA5N9E07UM=",
+  "server": "107.152.43.64",
+  "server_port": 51820,
+  "type": "wireguard",
+  "tag": "pdot_USA🇺🇸noise",
+      "fake_packets": "40-80",
+      "fake_packets_size": "40-100",
+      "fake_packets_delay": "4-8",
+      "fake_packets_mode": "m4"
+    },
+{
+  "local_address": [
+    "10.1.15.180/32"
+  ],
+  "mtu": 1316,
+  "peer_public_key": "lTGWRVYLg/olI3GOZhmBF8Q0NTgBViWQsU9dK8y1J1M=",
+  "private_key": "4HwNi9TaDc0B6bVldF/RvlYzQjhFu/nlxZA5N9E07UM=",
+  "server": "107.152.43.64",
+  "server_port": 51820,
+  "type": "wireguard",
+  "tag": "pdot_USA🇺🇸",
+  "detour": "Hiddify Warp"
+},
     {
       "type": "hysteria2",
       "tag": "🇵🇱🐻‍❄️🔴Serv00❄️D",
